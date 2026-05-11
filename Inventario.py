@@ -8,6 +8,8 @@ class Producto:
         if self.stock >= cantidad:
             print("Disponibilidad de " + str(cantidad) + " unidades de " + self.nombre)
             return True
+        
+        
         else:
             print("No hay suficiente stock. Disponible " + str(self.stock) + " unidades.")
             return False
